@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduPrompt Syar'i</title>
+    <meta
+      name="description"
+      content="Generator prompt edukatif syar'i untuk gambar belajar anak dengan tema benda mati."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <span class="brand-mark">✦</span>
+          <div>
+            <p class="eyebrow">Syar'i Edu Generator</p>
+            <h1>EduPrompt Syar'i</h1>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="panel panel-primary">
+          <div class="panel-header">
+            <h2>BLOK 1: MATERI PELAJARAN</h2>
+          </div>
+
+          <div class="field-group">
+            <label for="category">Pilih Topik</label>
+            <select id="category" name="category">
+              <option value="salat-shaf">Salat &amp; Shaf</option>
+              <option value="wudhu-bersuci">Wudhu &amp; Bersuci</option>
+              <option value="adab-sehari-hari">Adab Sehari-hari</option>
+              <option value="sejarah-geografi">Sejarah &amp; Geografi Islam</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label for="lessonText">Teks Pelajaran / Hadits</label>
+            <textarea
+              id="lessonText"
+              name="lessonText"
+              rows="6"
+              maxlength="500"
+              placeholder="Masukkan ringkasan hadits urutan shaf, materi, atau topik pembelajaran di sini..."
+            >Hadits Urutan Imam Salat</textarea>
+          </div>
+        </section>
+
+        <section class="panel panel-secondary">
+          <div class="panel-header">
+            <h2>BLOK 2: TEMA VISUAL BENDA MATI (FAVORIT ANAK)</h2>
+          </div>
+
+          <div class="field-group">
+            <label>Pilih Objek Favorit</label>
+            <div class="option-grid" id="themeOptions">
+              <label class="option-card selected">
+                <input type="radio" name="theme" value="mobil-truk" checked />
+                <span>Mobil &amp; Truk</span>
+              </label>
+              <label class="option-card">
+                <input type="radio" name="theme" value="pesawat" />
+                <span>Pesawat</span>
+              </label>
+              <label class="option-card">
+                <input type="radio" name="theme" value="kereta" />
+                <span>Kereta Api</span>
+              </label>
+              <label class="option-card">
+                <input type="radio" name="theme" value="blok-kayu" />
+                <span>Blok Kayu</span>
+              </label>
+              <label class="option-card">
+                <input type="radio" name="theme" value="masjid-alam" />
+                <span>Masjid &amp; Alam</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label for="artStyle">Gaya Gambar</label>
+            <select id="artStyle" name="artStyle">
+              <option value="3d-isometric">3D Cute Isometric</option>
+              <option value="clean-vector">Clean Vector</option>
+              <option value="lego-style">LEGO Style Bricks</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label for="colorMood">Nuansa Warna</label>
+            <select id="colorMood" name="colorMood">
+              <option value="cerah-ceria">Cerah Ceria</option>
+              <option value="lembut-pastel">Lembut Pastel</option>
+              <option value="minimalis-islami">Minimalis Islami</option>
+            </select>
+          </div>
+        </section>
+
+        <div class="generate-bar">
+          <button id="generateBtn" class="primary-btn" type="button">Generate Prompt Sekarang</button>
+        </div>
+
+        <section class="panel panel-output">
+          <div class="panel-header output-header">
+            <h2>HASIL PROMPT NANO BANANA 2</h2>
+          </div>
+
+          <div class="result-box">
+            <div class="result-block">
+              <h3>Positive Prompt</h3>
+              <pre id="positivePrompt" class="output-text">Belum ada prompt yang dibuat.</pre>
+            </div>
+
+            <div class="result-block">
+              <h3>Negative Prompt</h3>
+              <pre id="negativePrompt" class="output-text">human, person, face, eyes, animal, living creature, cartoon character, statue, cross, crowd, portrait</pre>
+            </div>
+          </div>
+
+          <div class="action-row">
+            <button id="copyMainBtn" class="secondary-btn" type="button">Salin Prompt Utama</button>
+            <button id="copyNegativeBtn" class="secondary-btn alt" type="button">Salin Negative Prompt</button>
+            <button id="resetBtn" class="ghost-btn" type="button">Reset</button>
+          </div>
+
+          <div class="template-row">
+            <span class="template-label">Contoh Template Cepat</span>
+            <div class="template-buttons">
+              <button type="button" class="mini-btn" data-template="hadits-urutan-imam-salat">Hadits Urutan Imam Salat</button>
+              <button type="button" class="mini-btn" data-template="rukun-islam">Rukun Islam</button>
+              <button type="button" class="mini-btn" data-template="adab-makan">Adab Makan</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
