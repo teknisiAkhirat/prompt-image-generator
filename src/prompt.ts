@@ -66,6 +66,26 @@ Before writing each image prompt, identify the dominant structural relationship 
 Do NOT invent numerical counts unless the source itself supplies the count or the count is strictly necessary to represent a stated structure.
 Do NOT use visual metaphors to assign religious authority, holiness, truth, superiority, reward, punishment, or doctrinal status unless that meaning is explicitly present in the source. A visual metaphor represents structure; it is not a new interpretation.
 
+MEANING CONTROL — DO NOT LET THE THEME INVENT THE LESSON:
+Before designing each image, follow this order exactly:
+SOURCE CLAIM / STRUCTURE EXTRACTION → PEDAGOGICAL FUNCTION → SAFE ABSTRACTION → THEME MATERIALIZATION → COMPOSITION.
+- SOURCE CLAIM / STRUCTURE EXTRACTION: identify only claims, distinctions, sequences, counts, named items, and relationships explicitly present in the source segment.
+- PEDAGOGICAL FUNCTION: decide what the viewer needs to understand from that segment. The visual should teach that relationship, not decorate every noun.
+- SAFE ABSTRACTION: choose a neutral non-figurative structure such as grouping, separation, alignment, correspondence, progression, or branching only when it directly represents the sourced relationship.
+- THEME MATERIALIZATION: only after the abstraction is fixed, translate that neutral structure into the selected theme's inanimate objects/materials.
+- COMPOSITION: arrange the resulting objects so the relationship is immediately legible without adding a new story or interpretation.
+
+THEME ANTI-PATTERNS — EXPLICITLY FORBIDDEN:
+- NUMBER IS DATA, NOT AUTOMATIC OBJECT COUNT. "15 names" does not automatically mean 15 cars; "3 opinions" does not automatically mean 3 roads; "7 verses" does not automatically mean 7 vehicles. Use a numeric visual count only when the count itself is pedagogically central and materially improves understanding.
+- DO NOT VISUALIZE ABSTRACT RELIGIOUS TERMS LITERALLY. Terms such as rajih, Ummul Kitab, asy-Syifa, ash-Shalah, consensus, khilaf, or doctrinal status must not become literal objects, glowing objects, medical symbols, parent/mother-like objects, prayer icons, trophies, crowns, pedestals, or other invented symbols.
+- Do not use size, height, glow, gold, pedestal placement, centrality, isolation, or visual prominence to imply superiority, holiness, correctness, reward, punishment, or religious authority unless the source explicitly requires that visual relationship.
+- Do not turn disagreement into a race, yes/no road, forked roadway, winner/loser arrangement, or other competitive metaphor unless the source itself teaches competition.
+- Do not turn agreement/consensus into a road or track; use neutral alignment, correspondence, or grouped structure.
+- Do not turn "not part of" into a discarded, damaged, rejected, dirty, crossed-out, or inferior object. Represent the stated classification neutrally.
+- Do not visualize scholars, prophets, companions, or other named people. Their names may remain in source text, but the visual must use only neutral non-figurative structures.
+- Do not create icons or symbols merely because an abstract term sounds concrete.
+- Do not use decorative religious motifs, sacred-text patterns, or invented Arabic as visual shorthand.
+
 METAPHOR-FIRST COMPOSITION:
 - Use 1–3 strong visual relationships that directly communicate the source segment.
 - Object arrangement carries meaning; object identity alone does not.
@@ -122,6 +142,9 @@ QUALITY GATE BEFORE OUTPUT:
 - [ ] Theme is used only as visual vocabulary, not forced as the subject or setting.
 - [ ] No airport/garage/station/classroom/racetrack drift unless the source itself requires it.
 - [ ] Visual metaphor encodes only relationships supported by the source.
+- [ ] Number is treated as data, not automatic object count.
+- [ ] Abstract religious terms are not literalized into objects, symbols, or status cues.
+- [ ] No invented visual ranking or implied doctrinal verdict.
 - [ ] No literal ghaib depiction.
 - [ ] No living beings or figurative creatures.
 - [ ] No anthropomorphic objects or pareidolia.
